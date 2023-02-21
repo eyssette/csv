@@ -1,0 +1,34 @@
+Terme,Explication,Type de vocabulaire
+Forge,"Outil en ligne au départ utilisé dans le cadre du développement de logiciels pour faciliter le travail des équipes sur du code informatique. Plus généralement une forge peut servir à l'édition collaborative et à la publication de ressources numériques (sites web, bases de données, documents de cours …). <p>Une forge propose : </p><ul><li>un stockage en ligne de fichiers que l'on peut synchroniser avec son propre ordinateur pour garantir la pérennité des données ;</li><li>des outils de gestion des versions pour conserver l'historique des modifications ;</li><li>des outils de collaboration qui permettent la correction des erreurs et la suggestion de nouvelles idées ;</li><li>des outils pour créer des pages webs, publier un logiciel en ligne ou transformer des fichiers textes en documents complexes (diaporama, schéma …)</li>",Vocabulaire de base
+<i>Git</i>,Outil informatique qui permet de faire du versionnage de tous les fichiers d'un dossier et de gérer le travail collaboratif sur ces fichiers,Vocabulaire de base
+Versionnage,Pratique consistant à enregistrer les différentes versions d'un projet afin de suivre les modifications apportées au projet au fil du temps et de pouvoir revenir à des versions précédentes si nécessaire,Vocabulaire de base
+<i>Repository</i> (“dépôt” ou “répertoire”),"Dossier géré par git qui contient tous les fichiers d'un projet, ainsi que l'historique des modifications et collaborations sur ces fichiers",Vocabulaire de base
+<i>Commit</i>,"Décision d'apporter des modifications dans les fichiers dans un projet. Pour chaque commit, git crée un instantané (“snapshot”) du projet qui enregistre l'état des fichiers à ce moment-là, ce qui permet de revenir à cette version si on le souhaite. Chaque commit contient : une référence à l'auteur·e pour savoir qui a apporté des modifications, un intitulé qui résume le type et la nature des modifications apportées, un message pour préciser le contenu des modifications, un numéro pour identifier le commit  ",Vocabulaire de base
+<i>Issue</i>,Demande ou problème soumis pour un projet sur un dépôt,Vocabulaire de base
+Initialisation," Première étape pour créer dans un dossier un nouveau projet avec Git",Vocabulaire de base
+<i>Remote</i>,Dépôt distant accessible depuis le répertoire local,Travailler avec un répertoire distant
+Clone,Copie exacte d'un dépôt sur l'ordinateur local de l'utilisateur,Travailler avec un répertoire distant
+<i>Push</i>,Envoi des commits locaux vers le dépôt distant,Travailler avec un répertoire distant
+<i>Pull</i>,Téléchargement et fusion des données d'un dépôt distant,Travailler avec un répertoire distant
+<i>Fetch</i>,Téléchargement des données d'un dépôt distant sans les fusionner,Travailler avec un répertoire distant
+<i>Gitignore</i>,Fichier spécifiant les fichiers ou dossiers à ignorer lors de l'ajout de fichiers à un dépôt,Travailler avec un répertoire distant
+<i>Origin</i>,Nom par défaut donné au dépôt distant,Travailler avec un répertoire distant
+<i>Master</i> ou <i>main</i>,Branche principale d'un projet,Travailler avec des branches ou des forks
+Branche,Version alternative d'un projet qui permet de travailler sur une nouvelle fonctionnalité sans affecter la version principale,Travailler avec des branches ou des forks
+<i>Fork</i>,Copie d'un dépôt existant dans un nouveau dépôt détenu par un utilisateur différent,Travailler avec des branches ou des forks
+<i>Merge</i> (“fusion”),Processus de fusion de plusieurs branches en une seule,Travailler avec des branches ou des forks
+<i>Pull request</i> (ou “demande de fusion”),Requête pour fusionner une branche dans le dépôt principal,Travailler avec des branches ou des forks
+Conflit,Situation dans laquelle deux branches modifient le même fichier de manière incompatible,Gérer les problèmes
+<i>diff</i>,Affichage des modifications apportées (“différences”) à un fichier entre deux commits,Gérer les problèmes
+<i>Working Directory</i> (“Répertoire de travail”),Dossier local sur votre ordinateur où se trouvent les fichiers de votre projet Git,Vocabulaire technique pour mieux comprendre git
+<i>Staging Area</i>,Espace intermédiaire où les modifications apportées aux fichiers d'un projet peuvent être regroupées avant d'être enregistrées en tant que commit,Vocabulaire technique pour mieux comprendre git
+<i>Stash</i>,Mise en attente temporaire des modifications non enregistrées,Vocabulaire technique pour mieux comprendre git
+<i>HEAD</i>,Référence au dernier commit effectué dans le répertoire,Vocabulaire technique pour mieux comprendre git
+<i>Rebase</i>,Processus de modification de l'historique des commits en intégrant les modifications apportées à une branche,Vocabulaire technique pour mieux comprendre git
+<i>Stage</i>,Processus d'ajout de modification à la <i>staging area</i> en préparation pour un commit,Vocabulaire technique pour mieux comprendre git
+<i>GitLab Pages</i>,Service qui permet de publier et de gérer des sites web statiques directement à partir d'un dépôt GitLab,Fonctionnalités de Gitlab
+<i>CI/CD</i> (<i>Continuous Integration</i> / <i>Continuous Deployment</i>),"Ensemble de processus automatisés qui sont exécutés à chaque fois que des modifications sont envoyées dans le répertoire distant. Ces processus permettent de  vérifier les modifications faites (“Intégration continue”) et de déployer le code (“Déploiement continu”) afin de construire une application, un site web, un fichier … Sur Gitlab, ces processus sont décrits dans un fichier .gitlab.yml",Fonctionnalités de Gitlab
+<i>Pipeline</i>,Ensemble d'étapes (appelés jobs) définis dans un fichier .gitlab.yml pour mettre en place la CI/CD (intégration continue / déploiement continu) afin d'automatiser la validation et le déploiement du code,Fonctionnalités de Gitlab
+<i>Job</i>,Tâche spécifique qui constitue un élément d'un pipeline,Fonctionnalités de Gitlab
+<i>Build</i>,"Opération de compilation du code pour obtenir un produit final (application, site web, fichier ...)",Fonctionnalités de Gitlab
+<i>Runner</i>,Application permettant d'exécuter des tâches dans un pipeline GitLab CI/CD,Fonctionnalités de Gitlab
